@@ -15,6 +15,7 @@ const WorkHistory = ({ history }) => {
       </h5>
       <div className="history flex flex-col relative pt-6 pb-6">
         {history.map(({ type, company, period, position, url }, i) => {
+          const key = `${company}_${i}`;
           const color = i === 0 ? '#23272e' : null;
           const icon =
             type === "work" ? (
@@ -23,13 +24,9 @@ const WorkHistory = ({ history }) => {
               <FaGraduationCap color={color} size="1.5em" />
             );
           return (
-            <div
-              className="history-entry relative w-1/2 py-4"
-              key={`${company}_${i}`}
-            >
-              <span className="dot-bg w-14 h-14 transform absolute bg-line inline-flex rounded-full items-center justify-center">
+            <div key={key }className="history-entry relative w-1/2 py-2">
+              <span className="dot-bg w-14 h-14 absolute bg-line inline-flex rounded-full items-center justify-center">
                 {icon}
-                {/* <span className="dot w-5 h-5 bg-back-light rounded-full" /> */}
               </span>
               {url ? (
                 <h4 className="subpixel-antialiased">

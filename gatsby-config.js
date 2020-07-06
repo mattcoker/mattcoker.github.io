@@ -10,6 +10,7 @@ const skill2Base = Color('#7045af');
 const skill3Base = Color('#2b3595');
 
 module.exports = {
+  pathPrefix: "/mattcoker.github.io",
   siteMetadata: {
     description: "Personal page of Matt Coker",
     locale: "en",

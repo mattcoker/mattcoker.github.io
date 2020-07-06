@@ -9,8 +9,7 @@ module.exports = {
     {
       resolve: "@wkocjan/gatsby-theme-intro", 
       options: {
-        basePath: "/",
-        contentPath: "content/",
+        theme: 'dark-pink'
       },
     },
   ],

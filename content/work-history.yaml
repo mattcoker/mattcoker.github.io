@@ -1,0 +1,29 @@
+- company: Impact DataSource
+  type: work
+  position: Software Engineer
+  period: September 2019 - present
+  url: https://impactdatasource.com/
+
+- company: Praxent
+  type: work
+  position: Software Enginner
+  period: April 2015 - September 2019
+  url: https://praxent.com
+
+- company: Poetic Systems
+  type: work
+  position: Web Developer
+  period: September 2013 - April 2015
+  url: https://poetic.io/
+
+- company: Transcare EMS, HealthQuest EMS
+  type: work
+  position: Emergency Medical Technician
+  period: December 2011 - December 2013
+  url: ""
+
+- company: Texas A&M University
+  type: education
+  position: BS, Biology
+  period: August 2007 - May 2011
+  url: ""

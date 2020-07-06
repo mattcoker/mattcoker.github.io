@@ -1,0 +1,21 @@
+- name: Impact Dashboard
+  url: https://dashboard.impactdatasource.com/
+  description: SaaS product for municipalities to better manage and understand economic impact scenarios
+  status: live
+  tags:
+    - Ember
+    - Node
+    - MongoDB
+  icon: website
+  image: images/impact-dashboard.png
+
+- name: Mach 2
+  url: https://github.com/ChristianChiarulli/nvim
+  description: NeoVIM config distrobution focused on speed and sane defaults
+  status: in progress
+  tags:
+    - (Neo)VIM
+    - Lua
+  icon: github
+  image: images/mach2.png
+

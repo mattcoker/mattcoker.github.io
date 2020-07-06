@@ -1,0 +1,30 @@
+- profile:
+  initials: MC
+  name: Matt Coker
+  email: mwkrrnor
+  profession: Full Stack Developer
+  image: images/profile.jpg
+  location: Austin, TX
+  relocation: false
+  company: Impact DataSource
+  for_hire: true
+  focus: React Native
+  focus_url: https://reactnative.dev/
+  about: |
+    I graduated from Texas A&M University in 2011 (Whoop!) and worked as an Emergency Medical Technician from 2011 to 2013 in Houston before getting started in web development.
+
+    Now, I'm working with various open source technologies (especially React Native and GraphQL) in the Austin area, and spending time with my wife and 2 children.
+  skills:
+    - JavaScript
+    - HTML / CSS
+    - Docker
+  tools:
+    - React
+    - GraphQL
+    - Node
+    - NeoVIM
+  budget:
+    currency: $
+    min: 2
+    max: 30
+    default: 10

@@ -8,7 +8,7 @@
   relocation: false
   company: Impact DataSource
   for_hire: true
-  focus: React Native
+  focus: Flutter
   focus_url: https://reactnative.dev/
   about: |
     I graduated from Texas A&M University in 2011 (Whoop!) and worked as an Emergency Medical Technician from 2011 to 2013 in Houston before getting started in web development.
@@ -20,9 +20,9 @@
     - Docker
   tools:
     - React
+    - Flutter
     - GraphQL
     - Node
-    - NeoVIM
   budget:
     currency: $
     min: 2
